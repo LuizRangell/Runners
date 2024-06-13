@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.floatingActionButton.setOnClickListener {
             drawerLayout.openDrawer(GravityCompat.START)
+            val name = "oz"
         }
     }
 
