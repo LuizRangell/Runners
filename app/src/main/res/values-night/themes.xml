@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Runners" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_night_primary</item>
+        <item name="colorSecondary">@color/my_night_secondary</item>
+    </style>
+
+    <style name="Theme.Runners" parent="Base.Theme.Runners" />
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">#9E9E9E</item>
+        <item name="colorSecondary">#B50000</item>
+    </style>
+
+</resources>
